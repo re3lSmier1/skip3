@@ -1,0 +1,36 @@
+.logo {
+    max-height: 300px;
+    max-width: 300px;
+    width: auto;
+    height: auto;
+}
+.p-inputtext {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+label {
+    font-size: small;
+}
+.p-inputtext-sm {
+    margin-bottom: -3px;
+}
+.grid {
+    margin: 0;
+}
+.cover {
+    background: #eee; /*#081229;*/
+}
+.loginDiv {
+    min-height: 100vh;
+}
+.centerColumn {
+    margin-top: 15vh;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.87);
+    border-radius: 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 15px;
+}

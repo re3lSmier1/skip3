@@ -1,7 +1,7 @@
 <template>
   <div>
     <div style="text-align: center">
-      <img src="../assets/skiptheline_text_dark.png" alt="" />
+      <img class="logo" src="../assets/skiptheline_text_dark.png" alt="" />
     </div>
     <div>
       <div style="margin-bottom: 10px">
@@ -33,38 +33,26 @@
           label="I don't have an account"
           class="p-button-sm p-button-outline p-button-text"
         />
-        <Button label="Login" class="p-button-raised p-button-sm" />
+        <Button
+          label="Login"
+          class="p-button-raised p-button-sm"
+          style="background-color: #081229; border: none"
+        />
       </div>
     </div>
   </div>
 </template>
 
 <script lang="ts">
-import { ref } from "vue";
-export default {
+import { ref, defineComponent } from "vue";
+
+export default defineComponent({
   name: "Login",
   setup() {
     const value1 = ref<unknown>();
     return { value1 };
   },
-};
+});
 </script>
 
-<style scoped>
-img {
-  max-height: 300px;
-  max-width: 300px;
-  width: auto;
-  height: auto;
-}
-.p-inputtext {
-  display: block;
-  margin-bottom: 0.5rem;
-}
-label {
-  font-size: small;
-}
-.p-inputtext-sm {
-  margin-bottom: -3px;
-}
-</style>
+<style scoped></style>

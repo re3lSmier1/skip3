@@ -12,6 +12,10 @@ import guestLayout from "@/layouts/GuestLayout.vue";
 
 import InputText from "primevue/inputtext";
 import Button from "primevue/button";
+import Textarea from "primevue/textarea";
+import AutoComplete from "primevue/autocomplete";
+import SelectButton from "primevue/selectbutton";
+import RadioButton from "primevue/radiobutton";
 
 const app = createApp(App);
 
@@ -22,3 +26,7 @@ app.component("default-layout", authLayout);
 app.component("guest-layout", guestLayout);
 app.component("InputText", InputText);
 app.component("Button", Button);
+app.component("Textarea", Textarea);
+app.component("AutoComplete", AutoComplete);
+app.component("SelectButton", SelectButton);
+app.component("RadioButton", RadioButton);
